@@ -1,6 +1,6 @@
 let episodes = [
   {
-    link: 'https://youtu.be/-KE8v44VS_k',
+    link: '-KE8v44VS_k',
     memes: [
       {
         name: 'Stolen Bike',
@@ -13,7 +13,7 @@ let episodes = [
     ],
   },
   {
-    link: 'https://youtu.be/M3BlpkaZp-k',
+    link: 'M3BlpkaZp-k',
     memes: [
       {
         name: 'Petting dog',
@@ -30,7 +30,7 @@ let episodes = [
     ],
   },
   {
-    link: 'https://youtu.be/qhu7Xhrt2dE',
+    link: 'qhu7Xhrt2dE',
     memes: [
       {
         name: 'Zootopia memes',
@@ -47,7 +47,7 @@ let episodes = [
     ],
   },
   {
-    link: 'https://youtu.be/U8LHgq3Jlnw',
+    link: 'U8LHgq3Jlnw',
     memes: [
       {
         name: 'Topless Ben Solo',
@@ -69,7 +69,7 @@ let episodes = [
     ],
   },
   {
-    link: 'https://youtu.be/l6YiAqOgGOI',
+    link: 'l6YiAqOgGOI',
     memes: [
       {
         name: 'Tide pods',

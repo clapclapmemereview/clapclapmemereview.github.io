@@ -30,3 +30,34 @@ footer {
   margin-top: 40px;
   font-size:10px;
 }
+
+/* DO WE HAVE TIME FOR BONUS MEME? */
+.bonus-meme {
+  background: linear-gradient(45deg, #FF0000, #FF7F00, #FFFF00, #00FF00, rgb(0, 89, 255), rgb(126, 0, 130), #8B00FF);
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+
+  -webkit-animation: rainbowanim 10s ease infinite;
+     -moz-animation: rainbowanim 10s ease infinite;
+          animation: rainbowanim 10s ease infinite;
+}
+
+@-webkit-keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes rainbowanim { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
