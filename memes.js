@@ -166,7 +166,7 @@ let episodes = [
     link: 'p33NtCtIjrM',
     memes: [
       {
-        name: 'If Earth is\'t flat...',
+        name: 'If Earth isn\'t flat...',
         vote: 'One pizza slice',
       },
       {
