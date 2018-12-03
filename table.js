@@ -9,11 +9,15 @@ let getEpisodeNumberCell = (content, link) => {
 }
 
 episodes.forEach((episode, i) => {
-  for (let meme of episode.memes) {
+  let numberOfMemes = episode.memes.length;
+  episode.memes.forEach((meme, j) => {
     let row = document.createElement('tr');
     
     let episodeCell = getEpisodeNumberCell(i+1, episode.link);
-    row.appendChild(episodeCell);
+    if (j === 0) {
+      episodeCell.setAttribute('rowspan', numberOfMemes);
+      row.appendChild(episodeCell);
+    }
 
     let nameCell = document.createElement('td');
     nameCell.innerText = meme.name;
@@ -25,5 +29,5 @@ episodes.forEach((episode, i) => {
 
     let tboy = document.getElementById('reviews');
     tboy.appendChild(row);
-  }
+  });
 });
