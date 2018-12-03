@@ -31,6 +31,10 @@ footer {
   font-size:10px;
 }
 
+table tr td {
+  padding: 5px;
+}
+
 /* DO WE HAVE TIME FOR BONUS MEME? */
 .bonus-meme {
   background: linear-gradient(45deg, #FF0000, #FF7F00, #FFFF00, #00FF00, rgb(0, 89, 255), rgb(126, 0, 130), #8B00FF);

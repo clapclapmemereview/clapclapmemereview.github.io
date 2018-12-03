@@ -23,7 +23,7 @@ episodes.forEach((episode, i) => {
 
     let nameCell = document.createElement('td');
     nameCell.innerText = meme.name;
-    nameCell.className = bonus ? 'bonus-meme' : '';
+    nameCell.className = 'meme-name ' + (bonus ? 'bonus-meme' : '');
     row.appendChild(nameCell);
 
     let voteCell = document.createElement('td');
