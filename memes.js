@@ -67,5 +67,24 @@ let episodes = [
         bonus: true,
       },
     ],
+  },
+  {
+    link: 'https://youtu.be/l6YiAqOgGOI',
+    memes: [
+      {
+        name: 'Tide pods',
+        vote: '8.1/10',
+        comment: 'someone needs to die to get 10/10',
+      },
+      {
+        name: 'Logan Paul reaction to dead bodies',
+        vote: 'The 7.5/10',
+      },
+      {
+        name: 'OK Sign',
+        vote: 'ZERO',
+        bonus: true,
+      },
+    ],
   }
 ];
