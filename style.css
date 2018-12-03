@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+header {
+  margin-top: 50px;
+  width: 100%;
+}
+
+table tbody#reviews tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+span.strike {
+  text-decoration:line-through;
+  display: inline;
+}
+
+footer {
+  margin-top: 40px;
+  font-size:10px;
+}
